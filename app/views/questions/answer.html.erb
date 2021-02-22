@@ -1,0 +1,24 @@
+
+<div class= "container">
+
+  <div class="title">
+  <h2> Stupid Coaching</h2>
+  </div>
+
+  <div id = "question">
+    <p> <strong> <%= @question %> </strong> </p>
+    <p> <i> -You </i></p>
+  </div>
+
+  <div id = "answer">
+    <p> <strong> <%= @answer %> </strong>
+    </p> 
+    <p> - <i>  Your coach </i></p>
+  </div>
+
+  <div id ="return_home" >
+    <%= link_to  "Ask another question", root_path %>  
+  </div>
+  
+</div>
+ 
